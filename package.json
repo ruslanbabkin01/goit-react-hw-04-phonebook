@@ -2,7 +2,7 @@
   "name": "goit-react-hw-03-phonebook",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ruslanbabkin01.github.io/goit-react-hw-03-phonebook/",
+  "homepage": "https://ruslanbabkin01.github.io/goit-react-hw-04-phonebook/",
   "dependencies": {
     "@emotion/css": "^11.10.0",
     "@emotion/react": "^11.10.4",
