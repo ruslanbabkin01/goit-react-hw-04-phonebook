@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { Contacts, TotalContacts } from './ContactList.styled';
 import { ContactItem } from '../ContactItem/ContactItem';
 
-export const ContactList = ({ contacts, onDeleteContact, totalContscts }) => {
+export const ContactList = ({ contacts, onDeleteContact, totalContacts }) => {
   return (
     <Contacts>
       {contacts.map(({ number, name, id }) => (
@@ -13,7 +13,7 @@ export const ContactList = ({ contacts, onDeleteContact, totalContscts }) => {
           onDeleteContact={() => onDeleteContact(id)}
         />
       ))}
-      <TotalContacts>Total contacts: {totalContscts}</TotalContacts>
+      <TotalContacts>Total contacts: {totalContacts}</TotalContacts>
     </Contacts>
   );
 };
@@ -27,5 +27,5 @@ ContactList.propTypes = {
     })
   ),
   onDeleteContact: PropTypes.func.isRequired,
-  totalContscts: PropTypes.number,
+  totalContacts: PropTypes.number,
 };
