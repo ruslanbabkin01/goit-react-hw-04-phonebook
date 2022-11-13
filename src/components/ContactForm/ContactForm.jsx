@@ -70,9 +70,6 @@ export const ContactForm = ({ onSubmit }) => {
   );
 };
 
-// ContactForm.propTypes = {
-//   name: PropTypes.string,
-//   value: PropTypes.string,
-//   handleSubmit: PropTypes.func,
-//   handleNameChange: PropTypes.func,
-// };
+ContactForm.propTypes = {
+  onSubmit: PropTypes.func,
+};
